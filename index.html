@@ -1,0 +1,114 @@
+<!-- Prueba comentario -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"> <!-- Codificación -->
+    <meta name="viewport" content="width=device-width"> <!-- Para que el ancho se ajuste en los móviles por ejemplo -->
+    <title> 1ª Prueba HTML Alberto</title>
+    <!-- Título de la página que sale arriba en la pestaña, y lo que sale en Google -->
+    <meta name="description" content="Prueba de HTML realizada por Alberto Castillo, GitHub: @AlbeTroll">
+    <!-- Descripción que sale en Google de nuestra página -->
+
+    <!--Open Graph (básicamente, como se vería nuestra página al ser compartida)-->
+    <meta property="og:title" content="Pruebas HTML Alberto">
+    <meta property="og:description" content="sisisisisissisisisisisisisisisi">
+    <meta property="og:image" content="/Images/miniyo.jpeg">
+    <meta property="og:image:alt" content="Descripción post otra vez por aquí">
+
+    <link rel="alternate" href="https://alberto/en" hreflang="en-GB"> <!--Por si queremos redirigir a otra pag-->
+    <link rel="canonical" href="https://alberto/es"> <!--Página principal-->
+
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#FF0000"> <!-- Para el color de la pestaña arriba-->
+    <link rel="icon" type="image/jpeg" href="/Images/miniyo.jpeg"> <!-- Para la fotito de arriba de la pestaña -->
+
+    <style>
+        body {
+            background: rgb(231, 215, 215);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1> Probando HTML </h1>
+
+    <main>
+        <h2>
+            <em>Bienvenidos a mi repositorio de HTML 🎉</em>
+        </h2>
+
+        <p> Simplemente estoy <strong>aprendiendo HTML</strong>, y estoy realizando pruebas </p>
+
+        <h2> ¿Y por qué HTML?</h2>
+        <ul>
+            <li class="lista por qué HTML">Es un lenguaje utilizado en la gran mayoría de páginas web de internet</li>
+            <li class="lista por qué HTML">Porque sí porque mola porque está de moda</li>
+            <li class="lista por qué HTML">Hacer frontend es interesante y necesario para vender</li>
+            <!-- Básicamente, una class es una id compartida por varios elementos HTML -->
+        </ul>
+
+        <img id="Foto peque" title="Alberto de pequeño" width="300" height="300"
+            alt="Una foto de Alberto de pequeño muy muy rubio comiendome las uñas (como siempre)"
+            src="/Images/miniyo.jpeg">
+
+        <img hidden title="Alberto de pequeño" width="300" height="300"
+            alt="Una foto de Alberto de pequeño muy muy rubio comiendome las uñas (como siempre)"
+            src="/Images/miniyo.jpeg">
+
+        <br>
+
+        <input> <input type="color"> <input type="range">
+    </main>
+    
+    <h2> Proyectos que he realizado </h2>
+
+    <section> <!--Sección de proyectos que he realizado-->
+
+        <aside>
+            <!--Lo utilizamos por si queremos añadir algo extra (por ej, de los lenguajes no hacía falta hablar de ellos)-->
+            <article>
+                <!-- Un bloque de contenido que podemos copiar y pegar en otro lado, y seguiría teniendo sentido -->
+                <h3> Lenguaje favoritos </h3>
+
+                <ul>
+                    <li> <strong> Python: </strong> útil y sencillo </li>
+                    <li> <strong> Java: </strong> muy práctico para introducirte en la POO y empezar a entender un
+                        lenguaje tipado </li>
+                    <li> <strong> C++: </strong> hacer robots con Arduino es GOD </li>
+                    <li> <strong> Ensamblador: </strong> <em>ni de coña chaval</em></li>
+                </ul>
+                <small>y los que quedan...</small>
+            </article>
+        </aside>
+
+        <header>
+            <h3> Proyectos realizados</h3>
+            <ul>
+                <li> <strong>JavaBNB:</strong> Airbnb hecho con Java</li>
+                <li> <strong>UAH Adventures:</strong> Videojuegos hecho con Python y Arcade</li>
+                <li> <strong>Coche inteligente:</strong> Realizado con Arduino </li>
+                <li> <strong>Parque de atracciones:</strong> Realizado con Arduino </li>
+            </ul>
+        </header>
+    </section>
+
+
+    <footer>
+        <nav>
+            <p> Si quieres saber más sobre mí, visita mi <a href="https://github.com/AlbeTroll">GitHub</a> </p>
+            <!--Enlace externo-->
+        </nav>
+
+        <nav>
+            <a href="#Foto peque">Foto peque jeje</a> <!--Enlace interno-->
+        </nav>
+
+
+</body>
+
+
+</html>
